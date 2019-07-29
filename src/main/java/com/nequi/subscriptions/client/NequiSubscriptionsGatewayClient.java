@@ -18,7 +18,7 @@ package com.nequi.subscriptions.client;
 import com.google.gson.JsonObject;
 
 
-@com.amazonaws.mobileconnectors.apigateway.annotation.Service(endpoint = "https://api.nequi.com/subscriptions/v1/")
+@com.amazonaws.mobileconnectors.apigateway.annotation.Service(endpoint = "https://api.nequi.com/subscriptions/v1")
 public interface NequiSubscriptionsGatewayClient {
     
     @com.amazonaws.mobileconnectors.apigateway.annotation.Operation(path = "/-services-subscriptionpaymentservice-automaticpayment", method = "POST")
