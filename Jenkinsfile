@@ -6,8 +6,9 @@ node {
             currentStage = 'Checkout'                
             checkout scm
     } 
-
-    withMaven(
-        sh "mvn clean deploy"
+    stage('Deploy'){
+        withMaven(jdk: 'JAVA_1_8_121', maven: 'MAVEN_3_5_0') {
+            sh "mvn clean deploy"
+        }
     }
 }
