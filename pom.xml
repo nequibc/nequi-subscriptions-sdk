@@ -25,7 +25,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:nequibc/nequi-subscriptions-sdk.git</connection>
 		<developerConnection>scm:git:git@github.com:nequibc/nequi-subscriptions-sdk.git</developerConnection>
-		<url>git@github.com:nequibc/nequi-sdk-java.git</url>
+		<url>git@github.com:nequibc/nequi-subscriptions-sdk.git</url>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>
